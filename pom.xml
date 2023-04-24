@@ -17,6 +17,7 @@
   </dependencies>
   <build>
     <finalName>javademoproject</finalName>
+    <pluginManagement>
     <plugins>    
       <plugin>
         <groupId>org.sonarsource.scanner.maven</groupId>
@@ -24,5 +25,6 @@
         <version>3.7.0.1746</version>
       </plugin>
     </plugins>
+     </pluginManagement>
   </build>
 </project>
